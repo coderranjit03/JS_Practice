@@ -348,6 +348,7 @@ switch (userRole) {
 
 ---
 
+
 ## 🧠 When Should You Use `switch`?
 
 | Use `if-else` when…                                  | Use `switch` when…                                   |
