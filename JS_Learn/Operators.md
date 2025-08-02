@@ -96,11 +96,12 @@ console.log(10 <= 10);    // true
 
 Used to combine **multiple conditions**.
 
-| Operator | Meaning        | Example         | Result  |   
-| -------- | -------------- | --------------- | ------- | 
-| `&&`     | AND            | `true && false` | `false` | 
-| ` || ` | OR              | `true || false` | `true` |
-| `!`      | NOT (negation) | `!true`         | `false` |   
+| Operator         | Meaning        | Example           | Result  |
+|------------------|----------------|-------------------|---------|
+| `&&`             | AND            | `true && false`   | `false` |
+| <code>\|\|</code> | OR             | `true \|\| false`   | `true`  |
+| `!`              | NOT (negation) | `!true`           | `false` |
+
 
 ### 🧪 Example:
 
@@ -152,7 +153,7 @@ Used to perform **bit-level** operations (not commonly used in most projects unl
 | Operator    | Symbol | Example (5 & 3) | Binary                     |
 | ----------- | ------ | --------------- | -------------------------- |
 | AND         | `&`    | `5 & 3 = 1`     | `101 & 011 = 001`          |
-| OR          | `|`    | `5  | 3 = 7`    | `101 | 011 = 111`          |
+| OR          | <code>\|\|</code>    | `5 \| 3 = 7`    | `101 \| 011 = 111`          |
 | XOR         | `^`    | `5 ^ 3 = 6`     | `101 ^ 011 = 110`          |
 | NOT         | `~`    | `~5 = -6`       | `~0101 = 1010` (in binary) |
 | Left Shift  | `<<`   | `5 << 1 = 10`   | `101` → `1010`             |
@@ -180,9 +181,8 @@ console.log(5 >> 1); // 2
 | Arithmetic | `+`, `-`, `*`, `/`, `%`                        | 
 | Assignment | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`       | 
 | Comparison | `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=` | 
-| Logical    | `&&`, ` || `, `!` |
+| Logical    | `&&`, ` \|\|`, `!` |
 | Ternary    | `condition ? trueResult : falseResult`         | 
-| Bitwise    | `&`, `| `, `^`, `\~`, `<<`, `>>\`              | 
+| Bitwise    | `&`, `\| `, `^`, `~`, `<<`, `>>`              | 
 
 ---
-
