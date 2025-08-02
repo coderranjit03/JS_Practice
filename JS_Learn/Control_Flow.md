@@ -354,8 +354,9 @@ switch (userRole) {
 | Use `if-else` when…                                  | Use `switch` when…                                   |
 |------------------------------------------------------|------------------------------------------------------|
 | You need to check **ranges** or **complex conditions** | You're comparing a **single variable** to **many fixed values** |
-| Logical operators (`&&`, `||`) are used              | Values are **exact and distinct**                    |
+| Logical operators (`&&`, <code>\|\|</code>) are used | Values are **exact and distinct**                    |
 | Expressions vary on each condition                   | One expression is compared repeatedly               |
+
 
 
 ---
